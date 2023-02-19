@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Product;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,5 +19,5 @@ Route::get('/', function () {
 });
 
 Route::get('/shop', function () {
-    return view('shop');
+    return view('shop', ['products' => Product::all()]);
 });

@@ -13,6 +13,9 @@
 </head>
 
 <body>
+
+{{--<pre>{{ json_encode($products, JSON_PRETTY_PRINT) }}</pre>--}}
+
 <section id="header"  class="section-p1"class="section-m1">
 
     <div>
